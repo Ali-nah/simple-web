@@ -1,11 +1,22 @@
 import React from 'react'
+import AboutImg from "../assets/3.jpg"
+import ContactForm from '../Components/ContactForm'
+import Footer from '../Components/Footer'
+import Hero from '../Components/Hero'
+import Navbar from '../Components/Navbar'
 
 const Contact = () => {
   return (
-    <div>
-          <h1> This is Contact </h1>
-
-    </div>
+    <>
+    <Navbar/>
+    <Hero
+       cName="hero-mid"
+       heroimage={AboutImg}
+       title="Contact"
+    />
+    <ContactForm/>
+    <Footer/>
+    </>
   )
 }
 
