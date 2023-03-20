@@ -1,4 +1,5 @@
 .navbar-items{
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,6 +12,7 @@
     top: 20px;
     left: 50%;
     transform: translate(-50%);
+    z-index: 9999;
      
 }
 
@@ -95,6 +97,8 @@ button:hover{
         align-items: stretch;
         padding: 80px  0 30px 0;
         margin: 0;  
+        transition: 0.3s ease-in-out ;
+        border-radius: 13px;
 
     }
 
@@ -102,6 +106,7 @@ button:hover{
         left: 0;
         opacity: 1;
         z-index: -1;
+        transition: 0.3s ease-in-out ;
     }
 
    
@@ -141,6 +146,7 @@ display: none;
 
 .menu-icons{
     display: block;
+    cursor: pointer;
     
 }
 
